@@ -1,0 +1,26 @@
+.Flex-container {
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.image-mobile{
+    width: 0;
+    height: 100vh;
+    background-image: url('../../images/c.jpg');
+    background-size: cover;
+    background-position: center;
+    transition:  all 0.5s ease-in-out;
+    position: absolute;
+}
+.image-mobile::after{
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.8);
+} 
+.mobile-imageExtra {
+    width: 100% !important;
+}

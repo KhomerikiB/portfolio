@@ -1,0 +1,13 @@
+.Overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color:#101015;
+    z-index: -1;
+    transition:  all 0.7s cubic-bezier(.86,0,.07,1);
+}
+.overlay-extra {
+    width: 32% !important;
+}

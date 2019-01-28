@@ -1,0 +1,10 @@
+.Work {
+    width: 80%;
+    max-width: 134rem;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    top: 6.5rem;
+    bottom: 7rem;
+}
+

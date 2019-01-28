@@ -1,0 +1,45 @@
+.Left-side {
+    position: relative;
+    flex: 1;
+}
+.image-container {
+    position: relative;
+    width: 0;
+    background-image: url('../../../images/c.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition:  all 0.5s ease-in-out;
+    /*  width:0  */
+}
+.image-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.4);
+}
+.image-title {
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    transform: translateY(-50%);
+    font-size: 12rem;
+    color: #fff;
+    z-index: 2;
+    transition:  all 0.4s ease-out;
+    opacity:0;
+}
+.image-extra {
+    width: 75% !important;
+}
+.text-extra {
+    opacity: 1 !important;
+}
+@media only screen and (min-width:950px) {
+    .image-title {
+        font-size: 8.5rem;
+    }
+}

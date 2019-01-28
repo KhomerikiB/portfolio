@@ -1,0 +1,51 @@
+.Right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.flex-middle {
+    margin-top: -5rem;
+    overflow: hidden;
+    height: 0rem;
+    transition: all 0.5s ease-out;
+}
+.year {
+    margin-bottom: 1rem;
+    font-family: light;
+    font-size: 1.1rem;
+    color: #bdbdd5;
+}
+.profession {
+    margin-bottom: 5rem;
+    font-family: light;
+    font-size: 1rem;
+    color:#707086;
+    text-transform: uppercase;
+}
+.body {
+    color: #bdbdd5;
+    width: 80%;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+}
+.Languages-home {
+    display: flex;
+}
+.Languages-title {
+    font-family: light;
+    color: #707086;
+    margin-right: 0.5rem;
+}
+.Languages-home > div {
+    flex-basis: 32%;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #bdbdd5;
+}
+.right-extra {
+    height: 30rem !important;
+}
+

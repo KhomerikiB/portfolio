@@ -1,0 +1,68 @@
+.Plus {
+    position: absolute;
+    top: 6.5rem;
+    left: 0;
+    bottom: 7rem;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Pluses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:  all 0.5s ease-in;
+
+}
+.Pluses:nth-child(3) {
+    opacity: 0;
+}
+.visible {
+    opacity: 1 !important;
+}
+.Pluses > div {
+    width: 8px;
+    height: 8px;
+    position: relative;
+}
+.Pluses > div::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    width: 100%;
+   height: 1px;
+    transform: translateY(-50%); 
+    background-color: #595971;
+}.Pluses > div::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    transform: translateX(-50%);
+    background-color: #595971;
+}
+.Pluses > div:nth-child(1) {
+ left: -4px;
+}.Pluses > div:nth-child(2) {
+    left: -3px;
+}.Pluses > div:nth-child(3) {
+    left: -2px;
+}.Pluses > div:nth-child(4) {
+    left: 0px;
+}.Pluses > div:nth-child(5) {
+    left: 1px;
+}.Pluses > div:nth-child(6) {
+    left: 2px;
+}.Pluses > div:nth-child(7) {
+    left: 2px;
+}
+@media only screen and (min-width:200px) {
+    .mobile-hide-plus {
+        visibility: hidden;
+    }
+
+}

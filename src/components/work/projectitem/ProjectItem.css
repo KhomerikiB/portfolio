@@ -1,0 +1,50 @@
+.project {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    transition:  all 0.4s ease-out;
+    width: 0rem;
+    color: #fff; 
+}
+
+.project-extra {
+    width: 20rem !important;
+}
+.Project-title {
+    font-family: light;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+.Languages {
+    color: rgb(201, 201, 201);
+    font-family: light;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 20px;
+}
+.Languages-list,.second-title {
+    transition:  all 0.4s ease;
+   font-size: 1rem;
+}
+ a {
+    text-decoration: none;
+
+}
+
+.project:hover .Languages-list{
+    transform:translateY(-15px);
+}
+.project:hover .second-title {
+    transform:translateY(-15px);
+}
+.second-title {
+    transform:translateY(15px);
+    color: #fff;
+}

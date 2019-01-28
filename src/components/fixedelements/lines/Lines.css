@@ -1,0 +1,43 @@
+.Lines {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width:80%;
+    left:50%;
+    transform: translateX(-50%);
+    max-width: 134rem;
+}
+.Line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    left: 50%;
+    opacity: 0.1;
+   
+}
+
+ .Line:nth-child(1) {
+        left: 0;
+}
+.Line:nth-child(2) {
+    left: 16.67%;
+}
+.Line:nth-child(3) {
+    left: 33.32%;
+}
+.Line:nth-child(4) {
+    left: 49.98%;
+}
+.Line:nth-child(5) {
+    left: 66.7%;
+}
+.Line:nth-child(6) {
+    left: 83.3%;
+}
+.Line:nth-child(7) {
+    left: 99.88%;
+} 
+

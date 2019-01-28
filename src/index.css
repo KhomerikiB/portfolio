@@ -1,0 +1,103 @@
+@font-face {
+  src: url(./fonts/light.woff);
+  font-family: light;
+}
+@font-face {
+  src: url(./fonts/medium.woff);
+  font-family: medium;
+}
+@font-face {
+  src: url(./fonts/heavy.woff);
+  font-family: heavy;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  font-family: heavy;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #22222a;
+  height: 100vh;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@keyframes activeColor {
+  from{
+      
+  }to {
+      background-color: #f68b9d;
+  }
+}
+
+@media only screen and (min-width:200px) {
+    
+  html {
+      font-size: 65%;
+  }
+  .mobile-hide {
+      display: none;
+  }
+  .desktop-hide  {
+      flex-basis: 0 !important;
+  }
+  .Menu-nav {
+      width: 90%;
+  }
+  .profession {
+    margin-bottom: 3rem;
+}
+.body {
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+}
+.Languages-home > div {
+    flex-basis: auto;
+    font-size: 1rem;
+    
+}
+.Languages-home >div:not(:last-child) {
+    margin-right: 1rem;
+}
+
+}
+@media only screen and (min-width:750px) {
+  html {
+      font-size: 90%;
+  }
+}
+@media only screen and (min-width:950px) {
+  html {
+      font-size: 62.5%;
+  }
+  .desktop-hide {
+      display: none;
+  }
+  .mobile-hide {
+      display: block !important;
+  }
+  .mobile-hide-plus {
+      visibility: visible !important;
+  }
+  .Menu-nav {
+      width:80%;
+  }
+  .body {
+      overflow: hidden !important;
+      width: 80% !important;
+  }
+
+}
