@@ -12,7 +12,7 @@ class Project extends React.Component {
           title="Hotelweb"
           languages="#JavaScript #HTML5 #CSS3"
           currentPage={this.props.currentPage}
-          href={"https://hotelweb.ge/"}
+          href={"www.hotelweb.ge"}
         />
 
         <ProjectItem
