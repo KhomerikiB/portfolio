@@ -9,6 +9,16 @@ class Project extends React.Component {
           top="35%"
           left="0%"
           color="#90feb5"
+          title="Hotelweb"
+          languages="#JavaScript #HTML5 #CSS3"
+          currentPage={this.props.currentPage}
+          href={"hhtps://hotelweb.ge/"}
+        />
+
+        <ProjectItem
+          top="10%"
+          left="67%"
+          color="#2bcbba"
           title="Movies Search App"
           languages="#JavaScript #HTML5 #CSS3"
           currentPage={this.props.currentPage}
