@@ -16,8 +16,8 @@ class Project extends React.Component {
         />
 
         <ProjectItem
-          top="10%"
-          left="67%"
+          top="35%"
+          left="33.4%"
           color="#2bcbba"
           title="Movies Search App"
           languages="#JavaScript #HTML5 #CSS3"
