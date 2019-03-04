@@ -4,7 +4,7 @@ const LeftSide = props => {
   return (
     <div className="Left-side mobile-hide">
       <div className={"image-container " + props.imageExtra} />
-      <h1 className={"image-title " + props.textExtra}>Portfolio</h1>
+      <h1 className={"image-title " + props.textExtra}>Web Developer</h1>
     </div>
   );
 };

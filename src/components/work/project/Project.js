@@ -6,17 +6,17 @@ class Project extends React.Component {
     return (
       <div className="row">
         <ProjectItem
-          top="35%"
+          top="30%"
           left="0%"
           color="#90feb5"
           title="Hotelweb"
           languages="#JavaScript #HTML5 #CSS3"
           currentPage={this.props.currentPage}
-          href={"www.hotelweb.ge"}
+          href={"http://hotelweb.ge/"}
         />
 
         <ProjectItem
-          top="35%"
+          top="50%"
           left="33.4%"
           color="#2bcbba"
           title="Movies Search App"
@@ -35,8 +35,8 @@ class Project extends React.Component {
         />
 
         <ProjectItem
-          top="60%"
-          left="33.4%"
+          top="70%"
+          left="0%"
           color="#c887fb"
           title="Todo App"
           languages="#JavaScript #HTML5 #CSS3"
