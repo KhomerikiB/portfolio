@@ -1,93 +1,92 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 .flex {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15rem;
 }
 .flex-box {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    position: relative;
-    z-index: 3;
-    transition: all 0.4s ease-in-out;
-    transform: translateY(50px);
-    opacity: 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 3;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(50px);
+  opacity: 0;
 }
 .flex-box:nth-child(2) {
-    transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 .flex-box:nth-child(3) {
-    transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 .flex-box:not(:last-child) {
-    margin-bottom: 15rem;
+  margin-bottom: 15rem;
 }
 .extra-flexbox {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 .About-title {
-    flex-basis: 16.5%;
-    font-family: light;
-    color: #bdbdd5;
-    font-size: 1.1rem;
-    text-transform: uppercase;
+  flex-basis: 16.5%;
+  font-family: light;
+  color: #bdbdd5;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top: 7px;
 }
 
 .About-description {
-    padding-right:15rem; 
-    flex-basis: 66.7%;
-    line-height: 2.7rem;
-    color: #c2c2dd;
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+  padding-right: 15rem;
+  flex-basis: 66.7%;
+  line-height: 2.7rem;
+  color: #c2c2dd;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 .About-skills {
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    flex-basis: 16.7%;
-    display: flex;
-    flex-direction: column;color: #c2c2dd;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  flex-basis: 16.7%;
+  display: flex;
+  flex-direction: column;
+  color: #c2c2dd;
 }
 .About-skills span:first-child {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .line {
-    width: 10rem;
-    height: 1px;
-    background-color: #c2c2dd;
-    display: inline-block;
+  width: 10rem;
+  height: 1px;
+  background-color: #c2c2dd;
+  display: inline-block;
 }
 .skills-flex {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
-
-@media (max-width:950px) and (min-width:200px) { 
-    .flex {
-        margin-top: 2rem;
-    }
-    .flex-box {
-        justify-content: space-between;
-    }
-    .flex-box:not(:last-child) {
-        margin-bottom: 5rem;
-    }
-    .About-title:last-child {
-        margin-right: 1rem !important;
-    }
-    .About-title {
-        margin-top: .5rem;
-    }
-    .About-description {
-        width: 90% !important;
-        padding: 0 !important;
-        flex-basis: auto !important;
-    }
-    
+@media (max-width: 950px) and (min-width: 200px) {
+  .flex {
+    margin-top: 2rem;
   }
- 
+  .flex-box {
+    justify-content: space-between;
+  }
+  .flex-box:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+  .About-title:last-child {
+    margin-right: 1rem !important;
+  }
+  .About-title {
+    margin-top: 0.5rem;
+  }
+  .About-description {
+    width: 90% !important;
+    padding: 0 !important;
+    flex-basis: auto !important;
+  }
+}

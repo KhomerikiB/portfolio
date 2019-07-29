@@ -18,23 +18,23 @@ class Project extends React.Component {
         <ProjectItem
           top="50%"
           left="33.4%"
-          color="#2bcbba"
-          title="Movies Search App"
+          color="#dcdde1"
+          title="Atelier Buckley"
           languages="#JavaScript #HTML5 #CSS3"
           currentPage={this.props.currentPage}
-          href={"https://khomerikib.github.io/moviesapp/"}
+          href={"http://atelierbuckley.com/"}
         />
         <ProjectItem
           top="10%"
           left="33.4%"
-          color="#f68b9d"
-          title="Pizza Delivery"
+          color="#ffcb08"
+          title="Capital Express"
           languages="#JavaScript #HTML5 #CSS3"
           currentPage={this.props.currentPage}
-          href={"https://khomerikib.github.io/pizzadelivery/"}
+          href={"https://webdigital.gq/en"}
         />
 
-        <ProjectItem
+        {/* <ProjectItem
           top="70%"
           left="0%"
           color="#c887fb"
@@ -42,7 +42,7 @@ class Project extends React.Component {
           languages="#JavaScript #HTML5 #CSS3"
           currentPage={this.props.currentPage}
           href={"https://khomerikib.github.io/todoapp/"}
-        />
+        /> */}
       </div>
     );
   }

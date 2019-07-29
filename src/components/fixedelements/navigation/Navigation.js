@@ -64,11 +64,7 @@ class Navigation extends React.Component {
     return (
       <React.Fragment>
         <header className="Menu-nav">
-          <span className="Logo">
-            <a onClick={this.mainPage} href="/">
-              Portfolio
-            </a>
-          </span>
+          <span className="Logo">Portfolio</span>
           <li className="mobile-hide">
             <a
               onClick={this.handleHome}

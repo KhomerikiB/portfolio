@@ -33,6 +33,8 @@ class ProjectItem extends React.Component {
       <React.Fragment>
         <a
           href={this.props.href}
+          target="_blank"
+          rel="noopener noreferrer"
           className={"project " + this.state.extra}
           style={{ top: this.props.top, left: this.props.left }}
         >
